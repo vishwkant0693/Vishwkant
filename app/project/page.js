@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Head from 'next/head';
 import next from '../assets/images/next.png'
 import RevenueCat from '../assets/images/RevenueCat.png'
-import HobbyCue from '../assets/images/HobbyCue.png'
+import HobbyCue from '../assets/images/hobbycue.png'
 import nf from '../assets/images/nf1.png'
 import knight from '../assets/images/knight.png'
 import chart from '../assets/images/chart.png'
