@@ -1,5 +1,6 @@
 import React from 'react';
 import { Inter } from 'next/font/google';
+import Script from 'next/script'
 import Head from 'next/head';
 import './globals.css';
 import Navbar from '@/components/Navbar';
@@ -22,7 +23,7 @@ const RootLayout = ({ children }) => {
         {/* Add any other meta tags or link tags here */}
       </Head>
       <body className={inter.className}>
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <Script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></Script>
         <Navbar />
         {children}
         <Footer />
