@@ -146,7 +146,7 @@ const page = () => {
     if (metaDescriptionTag) {
       metaDescriptionTag.setAttribute('content', metadata.description);
     }
-  }, []);
+  }, [metadata.title]);
 
   const [item, setItem] = useState(projects);
 
