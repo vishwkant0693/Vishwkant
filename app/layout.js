@@ -22,11 +22,11 @@ const RootLayout = ({ children }) => {
         {/* Add any other meta tags or link tags here */}
       </Head>
       <body className={inter.className}>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
         <Navbar />
         {children}
         <Footer />
         {/* The script below is asynchronous and does not violate Next.js guidelines */}
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
       </body>
     </html>
   );
