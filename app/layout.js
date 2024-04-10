@@ -1,6 +1,6 @@
 import React from 'react';
 import { Inter } from 'next/font/google';
-import Script from 'next/script'
+import Script from 'next/script';
 import Head from 'next/head';
 import './globals.css';
 import Navbar from '@/components/Navbar';
@@ -27,7 +27,7 @@ const RootLayout = ({ children }) => {
         {children}
         <Footer />
         {/* The script below is asynchronous and does not violate Next.js guidelines */}
-        <Script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" async ></Script>
+        <Script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" async></Script>
       </body>
     </html>
   );
