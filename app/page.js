@@ -8,7 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 const page = () => {
   return (
     <>
-      <div className="min-h-screen py-40">
+      <div className="min-h-screen py-28">
         <div className="flex justify-around items-center mx-auto max-lg:flex-col-reverse max-lg:gap-10">
           <div className="text-4xl max-lg:mx-10">
             <div className="max-md:text-lg">
