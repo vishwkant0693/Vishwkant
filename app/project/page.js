@@ -1,23 +1,20 @@
 "use client"
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import next from '../assets/images/next.png'
-import RevenueCat from '../assets/images/RevenueCat.png'
-import HobbyCue from '../assets/images/hobbycue.png'
-import nf from '../assets/images/nf1.png'
-import knight from '../assets/images/knight.png'
-import chart from '../assets/images/chart.png'
-import reactcrud from '../assets/images/reactcrud1.png'
-import djangocrud from '../assets/images/djangocrud1.png'
-import quiz from '../assets/images/quiz.png'
-import weather from '../assets/images/weather.png'
-import calculator from '../assets/images/calculator.png'
-import Image from 'next/image'
+import next from '../assets/images/next.png';
+import RevenueCat from '../assets/images/RevenueCat.png';
+import HobbyCue from '../assets/images/hobbycue.png';
+import nf from '../assets/images/nf1.png';
+import knight from '../assets/images/knight.png';
+import chart from '../assets/images/chart.png';
+import reactcrud from '../assets/images/reactcrud1.png';
+import djangocrud from '../assets/images/djangocrud1.png';
+import quiz from '../assets/images/quiz.png';
+import weather from '../assets/images/weather.png';
+import calculator from '../assets/images/calculator.png';
+import Image from 'next/image';
 
-
-
-const projects = [
-  
+const Projects = [
   {
     id: 1,
     name: "Marty's Clinic",
@@ -128,10 +125,9 @@ const projects = [
     category: 'basic',
     description: 'Calculator performs basic mathematical calculations, It is a simple yet powerful calculator web app offering basic arithmetic functions with a clean interface for quick calculations.'
   }
-]
+];
 
-const page = () => {
-
+const Page = () => {
   const metadata = {
     title: "Projects - Vishwkant - Full Stack Developer",
     description: "Projects - Vishwkant - Personal Portfolio",
@@ -146,15 +142,15 @@ const page = () => {
     if (metaDescriptionTag) {
       metaDescriptionTag.setAttribute('content', metadata.description);
     }
-  }, [metadata.title]);
+  }, [metadata.title, metadata.description]);
 
-  const [item, setItem] = useState(projects);
+  const [item, setItem] = useState(Projects);
 
   const filterItem = (category) => {
     if (category === "all") {
-      setItem(projects);
+      setItem(Projects);
     } else {
-      const filteredItems = projects.filter((project) => project.category === category);
+      const filteredItems = Projects.filter((project) => project.category === category);
       setItem(filteredItems);
     }
   };
@@ -207,7 +203,8 @@ const page = () => {
   );
 };
 
-export default page
+export default Page;
+
 
 
 
