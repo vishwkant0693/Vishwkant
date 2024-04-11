@@ -31,11 +31,11 @@ const page = () => {
               </span>
             </div>
             <ul className=' flex gap-6 items-center mt-5 py-3 rounded-2xl max-md:gap-3 max-sm:gap-2'>
-              <li className=' bg-zinc-800 border outline outline-1 rounded-full transition hover:outline-offset-2 px-2'><a href="https://github.com/vishwkant0693"><box-icon type='logo' name='github'></box-icon></a></li>
-              <li className=' bg-zinc-800 border  outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://www.instagram.com/vishwkant0693/"><box-icon name='instagram-alt' type='logo' ></box-icon></a></li>
-              <li className=' bg-zinc-800 border outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://in.linkedin.com/in/vishw-kant-1855011a4"><box-icon name='linkedin-square' type='logo' ></box-icon></a></li>
-              <li className=' bg-zinc-800 border outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://twitter.com/vishwkant0693?lang=bn"><box-icon type='logo' name='twitter'></box-icon></a></li>
-              <Link className='bg-zinc-800 border outline outline-1 rounded-full hover:outline-offset-2 px-2' href="/Vishwkant-Resume"><box-icon type='solid' name='right-top-arrow-circle'></box-icon></Link>
+              <li className=' bg-zinc-700 border outline outline-1 rounded-full transition hover:outline-offset-2 px-2'><a href="https://github.com/vishwkant0693"><box-icon type='logo' name='github'></box-icon></a></li>
+              <li className=' bg-zinc-700 border  outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://www.instagram.com/vishwkant0693/"><box-icon name='instagram-alt' type='logo' ></box-icon></a></li>
+              <li className=' bg-zinc-700 border outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://in.linkedin.com/in/vishw-kant-1855011a4"><box-icon name='linkedin-square' type='logo' ></box-icon></a></li>
+              <li className=' bg-zinc-700 border outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://twitter.com/vishwkant0693?lang=bn"><box-icon type='logo' name='twitter'></box-icon></a></li>
+              <Link className='bg-zinc-700 border outline outline-1 rounded-full hover:outline-offset-2 px-2' href="/Vishwkant-Resume"><box-icon type='solid' name='right-top-arrow-circle'></box-icon></Link>
             </ul>
             <div className="">
               <p className=' text-lg pt-4'><b>Contact Email : </b>vishwkant0693@gmail.com</p>

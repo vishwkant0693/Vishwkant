@@ -9,8 +9,8 @@ const page = () => {
         <h2 className="text-center text-4xl pt-10 pb-5 max-sm:text-2xl">About Me</h2>
         <div className="">
           <div className="grid grid-cols-4 justify-around items-center py-16 bg-zinc-950 rounded-xl px-5 w-4/5 mx-auto my-4 max-lg:grid-col-reverse max-lg:grid-cols-1 gap-y-10 border border-gray-500">
-            <div className="col-span-3 max-lg:text-xs w-full px-8">
-              <span className="text-xl">Hello, I&#39;m <b>Vishwkant</b> from Delhi, India.
+            <div className="col-span-3 w-full px-8 max-sm:px-2">
+              <span className="text-xl max-md:text-xs">Hello, I&#39;m <b>Vishwkant</b> from Delhi, India.
                 <br />
                 An aspiring full stack
                 developer.
