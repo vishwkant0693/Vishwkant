@@ -1,4 +1,10 @@
 import React from 'react'
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPython, FaGitAlt } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss, SiNextdotjs, SiExpress, SiDjango, SiMongodb, SiVisualstudiocode, SiGithub, SiCanva } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { BsFiletypeJson, BsTriangleFill } from "react-icons/bs";
+import { BiLogoNetlify } from "react-icons/bi";
+
 
 const page = () => {
   return (
@@ -10,56 +16,60 @@ const page = () => {
             <h3 className='border-b-2 mb-4'>FrontEnd</h3>
             <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
               <li className='skills'>
-                <box-icon type='logo' name='html5'></box-icon>HTML</li>
+              <FaHtml5 /> HTML</li>
               <li className='skills'>
-                <box-icon name='css3' type='logo' ></box-icon>CSS</li>
+              <FaCss3Alt /> CSS</li>
               <li className='skills'>
-                <box-icon name='javascript' type='logo' ></box-icon>JavaScript</li>
+                <SiJavascript /> JavaScript</li>
               <li className='skills'>
-                <box-icon name='bootstrap' type='logo' ></box-icon>BootStrap</li>
+                <FaBootstrap /> BootStrap</li>
               <li className='skills'>
-                <box-icon name='tailwind-css' type='logo' ></box-icon>TaliwindCSS</li>
+                <SiTailwindcss /> TaliwindCSS</li>
               <li className='skills'>
-                <box-icon name='react' type='logo' ></box-icon>ReactJS</li>
+                <FaReact /> ReactJS</li>
               <li className='skills'>
-                <box-icon type='solid' name='file-js'></box-icon>NextJS</li>
+                <SiNextdotjs /> NextJS</li>
             </ul>
           </div>
           <div className="bg-cyan-950 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
             <h3 className='border-b-2 mb-4'>BackEnd</h3>
             <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
               <li className='skills'>
-                <box-icon name='python' type='logo' ></box-icon>Python</li>
+                <FaNodeJs /> NodeJS</li>
               <li className='skills'>
-                <box-icon name='django' type='logo' ></box-icon>Django</li>
+                <SiExpress /> ExpressJS</li>
               <li className='skills'>
-                <box-icon name='nodejs' type='logo' ></box-icon>NodeJS</li>
+                <FaPython /> Python</li>
               <li className='skills'>
-                <box-icon name='server' type='solid' ></box-icon>ExpressJS</li>
+                <SiDjango /> Django</li>
             </ul>
           </div>
           <div className="bg-gray-800 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
             <h3 className='border-b-2 mb-4'>Databases</h3>
             <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
               <li className='skills'>
-                <box-icon type='solid' name='data'></box-icon>MySQL</li>
+                <GrMysql /> MySQL</li>
               <li className='skills'>
-                <box-icon name='mongodb' type='logo' ></box-icon>MongoDB</li>
+                <SiMongodb /> MongoDB</li>
               <li className='skills'>
-              <box-icon type='solid' name='file-json'></box-icon>JSON Server</li>
+              <BsFiletypeJson /> JSON Server</li>
             </ul>
           </div>
           <div className="bg-zinc-800 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
             <h3 className='border-b-2 mb-4'>Technologies</h3>
             <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
               <li className='skills'>
-                <box-icon type='logo' name='visual-studio'></box-icon>VS Code</li>
+                <SiVisualstudiocode /> VS Code</li>
               <li className='skills'>
-                <box-icon name='git' type='logo' ></box-icon>Git Bash</li>
+                <FaGitAlt /> Git Bash</li>
               <li className='skills'>
-                <box-icon name='github' type='logo' ></box-icon>GitHub</li>
+                <SiGithub /> GitHub</li>
               <li className='skills'>
-                <box-icon name='edit'></box-icon>Canva</li>
+                <SiCanva /> Canva</li>
+                <li className='skills'>
+                <BsTriangleFill /> Varcel</li>
+                <li className='skills'>
+                <BiLogoNetlify /> Netlify</li>
             </ul>
           </div>
         </div>

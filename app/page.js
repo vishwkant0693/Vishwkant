@@ -15,7 +15,7 @@ const page = () => {
               <h1 className=''>Hi, My name is</h1>
               <h2 className='font-semibold'><span className='text-indigo-900 font-bold'>V</span>ishwkant,</h2>
               <h1>and I am a Passionate,</h1>
-              <span id="element" className=' font-medium'>
+              <span id="element" className='font-medium'>
                 <TypeAnimation
                   sequence={['Web Developer,',
                     1000,
@@ -37,9 +37,6 @@ const page = () => {
               <li className=' bg-zinc-700 border outline outline-1 rounded-full hover:outline-offset-2 px-2'><a href="https://twitter.com/vishwkant0693?lang=bn"><box-icon type='logo' name='twitter'></box-icon></a></li>
               <Link className='bg-zinc-700 border outline outline-1 rounded-full hover:outline-offset-2 px-2' href="/Vishwkant-Resume"><box-icon type='solid' name='right-top-arrow-circle'></box-icon></Link>
             </ul>
-            <div className="">
-              <p className=' text-lg pt-4'><b>Contact Email : </b>vishwkant0693@gmail.com</p>
-            </div>
           </div>
           <div>
             <Image src={hero}  alt="home" width={500} className='rounded-xl max-md:px-5' />

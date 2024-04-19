@@ -9,12 +9,12 @@ const page = () => {
           <div className="">
           <div className="flex justify-between items-center">
             <h1 className='text-2xl font-semibold max-md:text-base'>Krenai</h1>
-            <p className='text-xl font-medium max-md:text-base'>2 months</p>
+            <p className='text-xl font-medium max-md:text-base'>3 months</p>
           </div>
             <h2 className='pb-2 max-sm:text-xs'>IT Services and IT Consulting</h2>
             <h2 className='pb-3 max-sm:text-xs'> <span className=' font-medium'>Role :</span> ReactJS Developer</h2>
             <p className=' text-xs pb-2'>Gurugram, Haryana [ Work from home ]</p>
-            <p className='text-xs'>Jan 2024 - Mar 2024 </p>
+            <p className='text-xs'>Jan 2024 - Apr 2024 </p>
           </div>
           
         </div>

@@ -13,14 +13,14 @@ export default function Navbar() {
             <header className="">
                 <nav className="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <div className='text-lg'>
-                            Vishwkant.
+                        <div className='text-2xl'>
+                            Vishw<b>kant.</b>
                         </div>
                     </div>
                     <div className="flex lg:hidden">
                         <button
                             type="button"
-                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-red-700"
+                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-600"
                             onClick={() => setMobileMenuOpen(true)}
                         >
                             <span className="sr-only">Open main menu</span>
@@ -29,12 +29,12 @@ export default function Navbar() {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         <ul className='flex gap-6 max-sm:hidden'>
-                            <li><Link href="/" className="text-sm font-semibold leading-6 transition hover:border-b-2" >Home</Link></li>
-                            <li><Link href="/about" className="text-sm font-semibold leading-6 transition hover:border-b-2" >About</Link></li>
-                            <li><Link href="/qualification" className="text-sm font-semibold leading-6 transition hover:border-b-2" >Qualification</Link></li>
-                            <li><Link href="/experience" className="text-sm font-semibold leading-6 transition hover:border-b-2" >Experience</Link></li>
-                            <li><Link href="/skills" className="text-sm font-semibold leading-6 transition hover:border-b-2" >Skills</Link></li>
-                            <li><Link href="/project" className="text-sm font-semibold leading-6 transition hover:border-b-2" >Projects</Link></li>
+                            <li><Link href="/" className="text-sm font-semibold leading-6 transition hover:text-gray-500" >Home</Link></li>
+                            <li><Link href="/about" className="text-sm font-semibold leading-6 transition hover:text-gray-500" >About</Link></li>
+                            <li><Link href="/qualification" className="text-sm font-semibold leading-6 transition hover:text-gray-500" >Qualification</Link></li>
+                            <li><Link href="/experience" className="text-sm font-semibold leading-6 transition hover:text-gray-500" >Experience</Link></li>
+                            <li><Link href="/skills" className="text-sm font-semibold leading-6 transition hover:text-gray-500" >Skills</Link></li>
+                            <li><Link href="/project" className="text-sm font-semibold leading-6 transition hover:text-gray-500" >Projects</Link></li>
                         </ul>
 
                     </div>
@@ -45,8 +45,8 @@ export default function Navbar() {
                         <div className="flex items-center justify-between">
                             <a href="/" className="-m-1.5 p-1.5">
                                 <div className="flex lg:flex-1">
-                                    <div className='text-lg'>
-                                        Vishwkant.
+                                    <div className='text-2xl'>
+                                        Vishw<b>kant.</b>
                                     </div>
                                 </div>
                             </a>
@@ -59,15 +59,15 @@ export default function Navbar() {
                                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                             </button>
                         </div>
-                        <div className="mt-6 flow-root">
+                        <div className="flex items-center justify-center my-24">
                             <div className="-my-6 divide-y divide-gray-500/10">
-                                <ul className="space-y-2 py-6 list-none">
-                                    <li><a href="/" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-700" >Home</a></li>
-                                    <li><a href="/about" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-700" >About</a></li>
-                                    <li><a href="/qualification" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-700" >Qualification</a></li>
-                                    <li><a href="/experience" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-700" >Experience</a></li>
-                                    <li><a href="/skills" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-700" >Skills</a></li>
-                                    <li><a href="/project" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:text-gray-700" >Projects</a></li>
+                                <ul className="space-y-2 py-6 list-none text-center text-2xl">
+                                    <li><a href="/" className="-mx-3 block rounded-lg px-3 py-2 leading-7 hover:text-gray-700" >Home</a></li>
+                                    <li><a href="/about" className="-mx-3 block rounded-lg px-3 py-2 leading-7 hover:text-gray-700" >About</a></li>
+                                    <li><a href="/qualification" className="-mx-3 block rounded-lg px-3 py-2 leading-7 hover:text-gray-700" >Qualification</a></li>
+                                    <li><a href="/experience" className="-mx-3 block rounded-lg px-3 py-2 leading-7 hover:text-gray-700" >Experience</a></li>
+                                    <li><a href="/skills" className="-mx-3 block rounded-lg px-3 py-2 leading-7 hover:text-gray-700" >Skills</a></li>
+                                    <li><a href="/project" className="-mx-3 block rounded-lg px-3 py-2 leading-7 hover:text-gray-700" >Projects</a></li>
                                 </ul>
                             </div>
                         </div>
