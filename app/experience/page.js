@@ -4,12 +4,12 @@ const page = () => {
   return (
     <>
       <section className="Experience min-h-screen">
-        <h2 className="text-center text-4xl pt-10 pb-5 max-sm:text-2xl">Experience</h2>
+        <h2 className="text-center md:text-4xl pt-10 pb-5 text-2xl">Experience</h2>
         <div className=" py-10 max-sm:py-5 bg-zinc-900 rounded-xl w-4/5 mx-auto px-10 max-sm:px-5 my-8 border border-gray-500">
           <div className="">
           <div className="flex justify-between items-center">
-            <h1 className='text-2xl font-semibold max-md:text-base'>Krenai</h1>
-            <p className='text-xl font-medium max-md:text-base'>3 months</p>
+            <h1 className='md:text-2xl font-semibold'>Krenai</h1>
+            <p className='md:text-xl font-medium'>3 months</p>
           </div>
             <h2 className='pb-2 max-sm:text-xs'>IT Services and IT Consulting</h2>
             <h2 className='pb-3 max-sm:text-xs'> <span className=' font-medium'>Role :</span> ReactJS Developer</h2>

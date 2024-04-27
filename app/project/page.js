@@ -158,11 +158,11 @@ const Page = () => {
   return (
     <>
       <section className="Project min-h-screen">
-        <h2 className="text-center text-4xl pt-10">Projects</h2>
+        <h2 className="text-center text-2xl md:text-4xl pt-10">Projects</h2>
         <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="max-auto flex mx-5 py-3 gap-2">
+          <div className="flex flex-wrap md:px-5 py-3 gap-2">
             <button className='btn border border-slate-300 text-slate-300 bg-black rounded-full px-5' onClick={() => filterItem("all")}>All</button>
-            <button className='btn border border-slate-300 text-slate-300 bg-black rounded-full px-5' onClick={() => filterItem("basic")}>HTML, CSS & JavaScript</button>
+            <button className='btn border border-slate-300 text-slate-300 bg-black rounded-full px-5' onClick={() => filterItem("basic")}>Frontend</button>
             <button className='btn border border-slate-300 text-slate-300 bg-black rounded-full px-5' onClick={() => filterItem("react")}>React</button>
           </div>
           <div className="mt-5 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-2 xl:gap-x-8">
@@ -176,8 +176,8 @@ const Page = () => {
                   />
                 </div>
                 <div className="mt-4 ">
-                  <div className='flex justify-between'>
-                    <h3 className="text-sm text-gray-700">
+                  <div className='flex flex-col md:flex-row justify-between items-baseline'>
+                    <h3 className="text-md md:text-lg text-gray-700">
                       <a href={project.href}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {project.name}

@@ -41,11 +41,6 @@ body {
   transition: all 0.75s;
 }
 
-@media screen and (max-width:440px) {
-  .skills {
-    padding: 0.4px 0.8rem;
-  }
-}
 
 .skills:hover {
   mix-blend-mode: difference;

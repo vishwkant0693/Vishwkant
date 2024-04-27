@@ -10,11 +10,11 @@ const page = () => {
   return (
     <>
       <section className="Skills min-h-screen">
-        <h2 className="text-center text-4xl pt-10">Skills</h2>
+        <h2 className="text-center text-2xl md:text-4xl pt-10">Skills</h2>
         <div className="grid grid-cols-2 w-4/5 mx-auto py-10 gap-10 text-xl max-md:grid-cols-1 max-sm:gap-4">
-          <div className="bg-neutral-800 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
-            <h3 className='border-b-2 mb-4'>FrontEnd</h3>
-            <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
+          <div className="bg-neutral-800 rounded-xl border border-gray-500 md:p-10 p-5">
+            <h3 className='border-b-2 mb-4 max-sm:text-md'>FrontEnd</h3>
+            <ul className='inline-flex flex-wrap gap-2 max-sm:text-sm'>
               <li className='skills'>
               <FaHtml5 /> HTML</li>
               <li className='skills'>
@@ -31,9 +31,9 @@ const page = () => {
                 <SiNextdotjs /> NextJS</li>
             </ul>
           </div>
-          <div className="bg-cyan-950 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
-            <h3 className='border-b-2 mb-4'>BackEnd</h3>
-            <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
+          <div className="bg-cyan-950 rounded-xl border border-gray-500 md:p-10 p-5">
+            <h3 className='border-b-2 mb-4 max-sm:text-md'>BackEnd</h3>
+            <ul className='inline-flex flex-wrap gap-2 max-sm:text-sm'>
               <li className='skills'>
                 <FaNodeJs /> NodeJS</li>
               <li className='skills'>
@@ -44,9 +44,9 @@ const page = () => {
                 <SiDjango /> Django</li>
             </ul>
           </div>
-          <div className="bg-gray-800 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
-            <h3 className='border-b-2 mb-4'>Databases</h3>
-            <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
+          <div className="bg-gray-800 rounded-xl border border-gray-500 md:p-10 p-5">
+            <h3 className='border-b-2 mb-4 max-sm:text-md'>Databases</h3>
+            <ul className='inline-flex flex-wrap gap-2 max-sm:text-sm'>
               <li className='skills'>
                 <GrMysql /> MySQL</li>
               <li className='skills'>
@@ -55,9 +55,9 @@ const page = () => {
               <BsFiletypeJson /> JSON Server</li>
             </ul>
           </div>
-          <div className="bg-zinc-800 py-10 px-20 rounded-xl max-sm:px-10 border border-gray-500">
-            <h3 className='border-b-2 mb-4'>Technologies</h3>
-            <ul className='inline-flex flex-wrap gap-2 max-sm:text-xs'>
+          <div className="bg-zinc-800 rounded-xl border border-gray-500 md:p-10 p-5">
+            <h3 className='border-b-2 mb-4 max-sm:text-md'>Technologies</h3>
+            <ul className='inline-flex flex-wrap gap-2 max-sm:text-sm'>
               <li className='skills'>
                 <SiVisualstudiocode /> VS Code</li>
               <li className='skills'>
