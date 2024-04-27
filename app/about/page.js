@@ -2,6 +2,8 @@ import React from 'react'
 import profile from '../assets/images/profile.png'
 import Image from 'next/image'
 
+
+
 const page = () => {
   return (
     <>
@@ -19,6 +21,7 @@ const page = () => {
                   <p>Mobile No. :- +917550444332</p>
                 </div>
               </span>
+              
             </div>
             <div className="grid justify-center max-md:h-fit">
               <Image className='rounded-full p-3' src={profile} width={240} height={240} alt="profile" />
