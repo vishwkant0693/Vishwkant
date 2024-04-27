@@ -17,7 +17,7 @@ const page = () => {
         <div className="flex justify-around items-center mx-auto max-lg:flex-col-reverse max-lg:gap-10">
           <div className="md:text-4xl text-2xl px-4">
             <div className="">
-              <h1 className=''>Hello, I'm</h1>
+              <h1 className=''>Hello, I&#39;m</h1>
               <h2 className='font-semibold'><span className='text-indigo-900 font-bold'>V</span>ishwkant,</h2>
               <h1>and I am a Passionate,</h1>
               <span id="element" className='font-medium'>
